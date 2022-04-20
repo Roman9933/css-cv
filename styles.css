@@ -1,0 +1,105 @@
+body{
+    background: rgb(210, 233, 164);
+    margin: auto;
+    max-width: 800px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.avatar{
+    width: 250px;
+    border-radius: 28px;
+    margin: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    opacity: 0.8;
+}
+a:active{
+    color: blue;
+}
+.info{
+    display: flex;
+}
+@media (max-width:600px) {
+    .info{ 
+        text-align: center;
+        display: block;
+    }
+}
+.info-text{
+    margin: 0px 20px 20px 20px ;
+    margin-bottom: px;
+}
+.card{
+    
+    padding: 10px 20px 10px 20px;
+ margin-bottom: 20px;
+ border-radius: 28px;
+}
+.bg-yellow{ background: rgba(253, 253, 4, 0.13);}
+.bg-green{background: rgba(5, 247, 5, 0.082);}
+.bg-red{background: rgba(245, 1, 1, 0.062);}
+.link-list{
+    list-style:none;
+    padding: 5px;
+}
+.link-list li {
+    border-bottom:1px solid rgb(71, 52, 52);
+    margin-bottom: 10px;
+    
+}
+.hobi li{
+    color: rgb(71, 52, 52);
+}
+.table{
+    width: 100%;
+}
+.table td{
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+.table td:nth-child(2){color: rgb(53, 41, 41);}
+
+.table td:nth-child(3){color: rgb(53, 41, 41);}
+.contact{
+    text-align: center;
+}
+.form-group label{
+    display: block;
+    font-size: 14px;
+    color:  rgb(94, 50, 50);
+}
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid  rgb(94, 50, 50);
+    color: black;
+    padding: 10px 0 10px;
+    outline: none;
+}
+.row{
+    display: flex;
+}
+.row >.form-group{
+    width: 50%;
+    margin-right: 20px;
+}
+.btn{
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.9;
+}
+
